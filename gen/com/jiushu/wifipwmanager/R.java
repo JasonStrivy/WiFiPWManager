@@ -73,9 +73,10 @@ public final class R {
         public static final int splash_progressbar_border=0x7f020012;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b0028;
+        public static final int action_settings=0x7f0b0026;
         public static final int ad_view_bottom=0x7f0b000d;
         public static final int ad_view_inneritme=0x7f0b0010;
+        public static final int adsRl=0x7f0b0025;
         public static final int content_view_top=0x7f0b0006;
         public static final int content_view_top_searchbar=0x7f0b0008;
         public static final int content_view_top_searchbar_filterresult_counter=0x7f0b000b;
@@ -95,10 +96,7 @@ public final class R {
         public static final int main_listViewItem_Comment=0x7f0b0014;
         public static final int main_listViewItem_PassWord=0x7f0b0013;
         public static final int main_listViewItem_SSID=0x7f0b0012;
-        public static final int progressContent=0x7f0b0024;
-        public static final int progressbar=0x7f0b0025;
-        public static final int progressbar_txt=0x7f0b0026;
-        public static final int search=0x7f0b0029;
+        public static final int search=0x7f0b0027;
         public static final int setcomment_editor=0x7f0b001c;
         public static final int setcomment_editor_line=0x7f0b001d;
         public static final int setcomment_message=0x7f0b001e;
@@ -110,10 +108,10 @@ public final class R {
         public static final int statusbar_bg=0x7f0b0000;
         public static final int text=0x7f0b0023;
         public static final int title_applog=0x7f0b0002;
-        public static final int title_appsbtn=0x7f0b0005;
+        public static final int title_interad_btn=0x7f0b0005;
         public static final int title_line=0x7f0b0001;
         public static final int title_searchbtn=0x7f0b0004;
-        public static final int versioncode=0x7f0b0027;
+        public static final int versioncode=0x7f0b0024;
         public static final int wifi_infos=0x7f0b0011;
     }
     public static final class layout {

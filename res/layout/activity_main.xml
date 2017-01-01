@@ -47,12 +47,12 @@
             android:layout_height="25dp"
             android:layout_centerVertical="true"
             android:layout_marginRight="15dp"
-            android:layout_toLeftOf="@+id/title_appsbtn"
+            android:layout_toLeftOf="@+id/title_interad_btn"
             android:background="@mipmap/search_50_50"
             android:gravity="center" />
 
         <Button
-            android:id="@+id/title_appsbtn"
+            android:id="@+id/title_interad_btn"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_alignParentRight="true"
@@ -158,13 +158,12 @@
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/ad_view_bottom"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:orientation="horizontal" >
-    </LinearLayout>
+        android:orientation="horizontal" />
 
 </RelativeLayout>
