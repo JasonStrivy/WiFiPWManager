@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WiFi密码管理器</string>
+    <string name="action_settings">设置</string>
+    <string name="dic">/data/misc/wifi/wpa_supplicant.conf</string>
+
+    <string name="app_description">WiFi密码管理器主要用于查看当前设备已经连接过得所有WiFi及其密码
+    适用于：1.找回因连接WiFi后长时间不输入密码而忘记密码
+    \t2.办公室里WiFi同密码不同名称时查看当前连接的WiFi密码，从而连接其他WiFi
+    \t3.别人告诉你的密码，后来连接时他不在身边又不好意思再问一次
+    </string>
+
+    <string name="popmenu_setcomment">设置备注</string>
+    <string name="popmenu_wifipw">复制【密码】</string>
+    <string name="popmenu_wifiname_and_pw">复制【名称】和【密码】</string>
+    <string name="popmenu_share">发送给好友</string>
+    <string name="popmenu_del">删除</string>
+
+    <string name="splashtext">只为方便你的WiFi生活</string>
+    
+    <string name="logoText">LOGO</string>
+    <string name="loadingText"> 加载中&#8230;&#8230;&#8230;</string>
+   
+</resources>

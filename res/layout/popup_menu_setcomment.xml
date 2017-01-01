@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_menu_setcomment_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/setcomment_title"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp">
+
+        <ImageView
+            android:id="@+id/setcomment_title_icon"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/popupmenu_set_comment" />
+
+        <TextView
+            android:id="@+id/setcomment_title_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="5dip"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="标题"
+            android:textColor="@color/setcomment_title"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/setcomment_editor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setcomment_title"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:hint="备注信息（例如：公司，学校，家庭）"
+        android:textColor="@color/setcomment_edit"
+        android:textColorHint="@color/setcomment_edit_hint"
+        android:textCursorDrawable="@drawable/custom_cursor"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:id="@+id/setcomment_editor_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/setcomment_editor"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/theme_main"
+        android:orientation="vertical"
+        android:paddingBottom="6dp" />
+
+    <TextView
+        android:id="@+id/setcomment_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setcomment_editor_line"
+        android:layout_centerHorizontal="true"
+        android:hint="额外信息"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/setcomment_message"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setcomment_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp">
+
+        <Button
+            android:id="@+id/setcomment_positive_btn"
+            style="@style/common_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/setcomment_negative_btn"
+            style="@style/common_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="取消" />
+
+    </LinearLayout>
+
+</RelativeLayout>
